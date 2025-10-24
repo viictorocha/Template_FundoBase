@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Integral",
+  "classifications": [ "CleanArchitecture", "Fundo", "CSharp" ],
+  "identity": "Integral.fundobase",
+  "name": "Template de Projeto Fundo (Clean Architecture)",
+  "shortName": "fundobase",
+  "sourceName": "FundoBase",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "CompanyName": {
+      "type": "parameter",
+      "datatype": "string",
+      "description": "Integral",
+      "defaultValue": "Integral"
+    }
+  }
+}

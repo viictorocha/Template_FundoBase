@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\FundoBase.Service\FundoBase.Service.csproj" />
+    <ProjectReference Include="..\FundoBase.Infra\FundoBase.Infra.csproj" />
+    <ProjectReference Include="..\FundoBase.Domain\FundoBase.Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
