@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desenvolvimento\\Templates\\FundoBase\\FundoBase.Domain\\FundoBase.Domain.csproj": {}
+    "D:\\Desenvolvimento\\Template_FundoBase\\FundoBase.Domain\\FundoBase.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Desenvolvimento\\Templates\\FundoBase\\FundoBase.Domain\\FundoBase.Domain.csproj": {
+    "D:\\Desenvolvimento\\Template_FundoBase\\FundoBase.Domain\\FundoBase.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desenvolvimento\\Templates\\FundoBase\\FundoBase.Domain\\FundoBase.Domain.csproj",
+        "projectUniqueName": "D:\\Desenvolvimento\\Template_FundoBase\\FundoBase.Domain\\FundoBase.Domain.csproj",
         "projectName": "FundoBase.Domain",
-        "projectPath": "D:\\Desenvolvimento\\Templates\\FundoBase\\FundoBase.Domain\\FundoBase.Domain.csproj",
+        "projectPath": "D:\\Desenvolvimento\\Template_FundoBase\\FundoBase.Domain\\FundoBase.Domain.csproj",
         "packagesPath": "C:\\Users\\10vii\\.nuget\\packages\\",
-        "outputPath": "D:\\Desenvolvimento\\Templates\\FundoBase\\FundoBase.Domain\\obj\\",
+        "outputPath": "D:\\Desenvolvimento\\Template_FundoBase\\FundoBase.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
